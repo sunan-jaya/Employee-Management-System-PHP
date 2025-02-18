@@ -1,0 +1,13 @@
+SUPER ADMIN:
+email: superadmin@mail.com
+pass: super admin
+
+ADMIN:
+email: admin@mail.com
+pass: admin123
+
+USER:
+email: sunanjayairmawan@gmail.com
+pass: sunan jaya
+
+or you can regist an account...
