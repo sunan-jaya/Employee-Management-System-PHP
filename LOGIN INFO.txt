@@ -1,9 +1,0 @@
-for admin :
-email : sunanjayairmawan@gmail.com
-pass  : sunan jaya
-
-for user employee :
-email : indahfebriyani@mail.com
-pass  : sunan jaya
-
-***ADMIN CAN CREATE ACCOUNT FOR EMPLOYEE***

@@ -39,7 +39,7 @@ class Login extends CI_Controller {
 	$response = array();
     //Recieving post input of email, password from request
     $email = $this->input->post('email');
-    $password = sha1($this->input->post('password'));
+	$password = sha1($this->input->post('password') ?? '');
 	$remember = $this->input->post('remember');
 	#Login input validation\
 	$this->load->library('form_validation');
@@ -238,11 +238,11 @@ class Login extends CI_Controller {
 		$userinfo = $this->login_model->GetUserInfo($key);
 		
 		if($password == $confirm){
-			if($userinfo->password != sha1($password)){
+			if($userinfo->password != sha1($password ?? '')){
 			$data=array();
 			$data = array(
 				'forgotten_code'=> 0,
-			    'password'=>sha1($password)
+			    'password'=>sha1($password ?? '')
 			    );
 		$update = $this->login_model->UpdatePassword($key,$data);
 		if($this->db->affected_rows()){
