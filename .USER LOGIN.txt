@@ -7,7 +7,8 @@ email: admin@mail.com
 pass: admin123
 
 USER:
-email: sunanjayairmawan@gmail.com
-pass: sunan jaya
+email: sunan@mail.com
+pass: password
 
-or you can regist an account...
+NOTE:
+*If you want to register an user account, login as a Admin first to create an User account

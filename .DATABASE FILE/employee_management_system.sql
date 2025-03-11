@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 18, 2025 at 08:43 PM
+-- Generation Time: Mar 11, 2025 at 12:24 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -287,7 +287,7 @@ CREATE TABLE `employee` (
 INSERT INTO `employee` (`id`, `em_id`, `em_code`, `des_id`, `dep_id`, `first_name`, `last_name`, `em_email`, `em_password`, `em_role`, `em_address`, `status`, `em_gender`, `em_phone`, `em_birthday`, `em_blood_group`, `em_joining_date`, `em_contact_end`, `em_image`, `em_nid`) VALUES
 (1, 'Super_Admin', '01', NULL, NULL, 'Super', 'Admin', 'superadmin@mail.com', 'e4e7c693c8b8ef0561533b26fdecee1e005accaf', 'SUPER ADMIN', NULL, 'ACTIVE', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (2, 'Admin', '02', NULL, NULL, 'Admin', '', 'admin@mail.com', 'f865b53623b121fd34ee5426c792e5c33af8c227', 'ADMIN', NULL, 'ACTIVE', 'Male', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(3, 'CEO', '03', 0, 0, 'Sunan', 'Jaya', 'sunanjayairmawan@gmail.com', '4942830b9f93578fbc75a856b340b30b964ee523', 'EMPLOYEE', NULL, 'ACTIVE', 'Male', '1234567890', '1993-01-01', '', '', '', 'CEO.png', '1234567890');
+(3, 'CEO', '03', 0, 0, 'Sunan', 'Jaya', 'sunan@mail.com', '5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8', 'EMPLOYEE', NULL, 'ACTIVE', 'Male', '1234567890', '1993-01-01', '', '', '', 'CEO.png', '1234567890');
 
 -- --------------------------------------------------------
 
@@ -422,7 +422,6 @@ CREATE TABLE `holiday` (
   `number_of_days` varchar(64) DEFAULT NULL,
   `year` varchar(64) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
-
 
 -- --------------------------------------------------------
 
